@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::prefix('questions')->name('questions.')->group(function () {
+    Route::get('three', function () {
+        return view('question.three');
+    })->name('three');
 });
