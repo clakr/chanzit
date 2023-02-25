@@ -6,4 +6,12 @@
   a {
     @apply text-blue-500 underline underline-offset-2;
   }
+
+  h2 {
+    @apply font-bold;
+  }
+
+  pre {
+    @apply bg-slate-300 rounded border-slate-400 border my-4;
+  }
 }
