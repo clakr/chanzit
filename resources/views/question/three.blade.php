@@ -19,5 +19,11 @@
         {{ $result }}
       </p>
     @endisset
+    @isset($conversion)
+      <p>
+        <b>Conversion: </b>
+        {{ $conversion }} USD
+      </p>
+    @endisset
   </main>
 @endsection
