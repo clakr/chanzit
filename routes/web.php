@@ -212,6 +212,14 @@ Route::prefix('questions')->name('questions.')->group(function () {
         ]);
     })->name('three.post');
 
+    Route::get('one', function () {
+        return view('question.one');
+    })->name('one');
+
+    Route::get('two', function () {
+        return view('question.two');
+    })->name('two');
+
     Route::get('three', function () {
         return view('question.three');
     })->name('three');

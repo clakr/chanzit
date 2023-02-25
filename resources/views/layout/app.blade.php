@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-slate-200 container mx-auto">
   @yield('content')
 </body>
 
