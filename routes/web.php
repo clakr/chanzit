@@ -25,7 +25,7 @@ Route::prefix('questions')->name('questions.')->group(function () {
         $result = '';
         $conversion = '';
 
-        $input = $request->input('question');
+        $input = $request->input('input');
         $n = ctype_digit($input) ? intval($input) : null;
 
         $req_url = 'https://v6.exchangerate-api.com/v6/bd2e3e943d06c4496644481a/latest/PHP';
