@@ -8,7 +8,7 @@
         <a href="https://github.com/clakr/chanzit" target="_blank">https://github.com/clakr/chanzit</a>
       </span>
     </div>
-    <ul class="list-inside flex flex-col gap-2 font-medium">
+    <ul class="flex flex-col gap-2 font-medium">
       <li>
         <a href={{ route('questions.one') }}>Question #1</a>
       </li>

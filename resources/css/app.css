@@ -14,4 +14,12 @@
   pre {
     @apply bg-slate-300 rounded border-slate-400 border my-4;
   }
+
+  ul {
+    @apply list-inside;
+  }
+
+  code {
+    @apply bg-slate-300 py-1 px-2 rounded border-slate-400 border text-sm;
+  }
 }
