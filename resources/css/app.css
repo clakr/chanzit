@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  main {
+    @apply p-4;
+  }
+
   a {
     @apply text-blue-500 underline underline-offset-2;
   }
